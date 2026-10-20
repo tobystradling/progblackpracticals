@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Styling lists</title>
+    <title>Pitta Bread</title>
     <style>
       /* General styles */
 
       html {
         font-family: Helvetica, Arial, sans-serif;
         font-size: 10px;
+      }
+
+      h1 {
+        font-size: 4rem;
       }
 
       h2 {
@@ -55,9 +59,23 @@
         font-weight: bold;
       }
 
+      .header-title {
+        width: 50%;
+        border: 10px ridge green;
+        background-color: beige;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+
     </style>
   </head>
   <body>
+    <header>
+      <div class="header-title">
+        <h1>Pitta Bread</h1>
+      </div>
+    </header>
     <h2>Shopping (unordered) list</h2>
 
     <p>Paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference.</p>
@@ -73,7 +91,7 @@
 
     <p>Paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference, paragraph for reference.</p>
 
-    <ol start="4">
+    <ol start="1">
       <li>Toast pitta, leave to cool, then slice down the edge.</li>
       <li>Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
       <li>Wash and chop the salad.</li>
